@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
+.div_desc{
+    text-align: justify;
+    width: 400px;
+    font-size: 17px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-top: 4%;
+    margin-left: 7%;
+    font-family: 'Roboto';
+}

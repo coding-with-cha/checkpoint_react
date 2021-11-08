@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
+.form{
+    width: 300px !important;    
+}
+.formulaire-section{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7%;
+}
+.formulaire-section p{
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(133, 131, 131);
+    letter-spacing: 5px;
+    word-spacing: 12px;
+}
+#input_pass{
+    margin-top: 9%;
+}
+.input{
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+}
+.input:focus{
+    border-color: rgb(236, 61, 90);
+    box-shadow: none;
+}
+.button_form{
+    font-family: 'Roboto', sans-serif;
+    border: none !important;
+    width: 100px !important;
+    margin-top: 5%;
+    background-color: rgb(236, 61, 90) !important;
+}
+.button_form:hover{
+    background-color: rgb(235, 38, 71) !important;
+    border: none !important;
+}

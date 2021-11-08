@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
+
+.navbar{
+    padding-left: 4%;
+    font-family: 'Roboto'!important;
+    font-size: 18px !important;
+}
+.navbar .brandName{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 40px !important;
+    margin-right: 15%;
+}
+.lien{
+    margin-right: 5% !important;
+}
+.d-flex{
+    margin-right: 2%;
+}
+.d-flex #champ{
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    background-color: transparent;
+}
+.d-flex #champ:focus{
+    border-color: rgb(236, 61, 90);
+    box-shadow: none;
+}
+.d-flex Button{
+    margin-left: 2% !important;
+    border-color: rgb(236, 61, 90);
+    color:  rgb(236, 61, 90);
+    width: 100px !important;
+}
+.d-flex Button:hover{
+    background-color: rgb(236, 61, 90) !important;
+    border-color: rgb(236, 61, 90);
+}
+.lien:last-child{
+    color: rgb(236, 61, 90) !important;
+    text-decoration: underline;
+}
